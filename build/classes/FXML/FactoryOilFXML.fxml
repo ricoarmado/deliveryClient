@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="248.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" layoutX="296.0" layoutY="180.0" prefHeight="38.0" prefWidth="187.0">
+         <children>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#nextButtonClick" prefHeight="31.0" prefWidth="151.0" text="Далее" />
+            <Button cancelButton="true" mnemonicParsing="false" onAction="#cancelButtonClick" prefHeight="31.0" prefWidth="121.0" text="Отмена" />
+         </children>
+      </HBox>
+      <Label layoutX="27.0" layoutY="41.0" text="Годовой объем(т)" />
+      <TextField fx:id="Volume" layoutX="27.0" layoutY="62.0" />
+      <TextField fx:id="objectIDField" editable="false" layoutX="27.0" layoutY="-100.0" />
+      <TextField fx:id="price" layoutX="296.0" layoutY="62.0" />
+      <Label layoutX="296.0" layoutY="41.0" text="Цена за тонну($)" />
+      <Label layoutX="27.0" layoutY="98.0" text="Завод" />
+      <Label layoutX="296.0" layoutY="100.0" text="Вид топлива" />
+      <ChoiceBox fx:id="choiseBox" layoutX="296.0" layoutY="121.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="objectIdFactory" layoutX="27.0" layoutY="120.0" prefHeight="31.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="objectIDField" editable="false" layoutX="113.0" layoutY="-148.0" />
+      <TextField fx:id="customerField" layoutX="57.0" layoutY="88.0" />
+      <Label layoutX="58.0" layoutY="67.0" text="Заказчик" />
+      <Label layoutX="58.0" layoutY="147.0" text="Объем(т)" />
+      <TextField fx:id="volumeField" layoutX="57.0" layoutY="168.0" />
+      <DatePicker fx:id="datePicker" layoutX="320.0" layoutY="168.0" />
+      <Label layoutX="321.0" layoutY="147.0" text="Дата заказа" />
+      <Label layoutX="321.0" layoutY="68.0" text="Вид топлива" />
+      <ChoiceBox fx:id="choiseBox" layoutX="320.0" layoutY="89.0" prefWidth="150.0" />
+      <Button layoutX="321.0" layoutY="241.0" mnemonicParsing="false" onAction="#nextButtonClick" prefHeight="31.0" prefWidth="187.0" text="Далее" />
+      <Button layoutX="321.0" layoutY="301.0" mnemonicParsing="false" onAction="#cancelButtonClick" prefHeight="31.0" prefWidth="187.0" text="Отмена" />
+      <ComboBox fx:id="factoryComboBox" layoutX="58.0" layoutY="241.0" prefHeight="31.0" prefWidth="150.0" />
+      <Label layoutX="59.0" layoutY="220.0" text="Завод" />
+   </children>
+</AnchorPane>

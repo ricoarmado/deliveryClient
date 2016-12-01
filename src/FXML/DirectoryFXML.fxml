@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="126.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="objectIDField" disable="true" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="31.0" prefWidth="25.0" visible="false" />
+      <TextField fx:id="objectIDField1" layoutX="57.0" layoutY="42.0" />
+      <Label layoutX="57.0" layoutY="19.0" text="Значение" />
+      <HBox layoutX="57.0" layoutY="81.0" prefHeight="38.0" prefWidth="187.0">
+         <children>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#nextButtonClick" prefHeight="31.0" prefWidth="151.0" text="Далее" />
+            <Button cancelButton="true" mnemonicParsing="false" onAction="#cancelButtonClick" prefHeight="31.0" prefWidth="121.0" text="Отмена" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
