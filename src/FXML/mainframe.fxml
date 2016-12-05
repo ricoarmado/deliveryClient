@@ -23,7 +23,7 @@
                         <MenuItem mnemonicParsing="false" onAction="#editFieldClick" text="Редактировать запись" />
                         <MenuItem mnemonicParsing="false" onAction="#adminViewClick" text="Административный просмотр" />
                      </items></Menu>
-                  <Menu fx:id="reports" disable="true"  mnemonicParsing="false" text="Отчеты">
+                  <Menu fx:id="reports" disable="true" mnemonicParsing="false" text="Отчеты">
                     <items>
                       <MenuItem mnemonicParsing="false" onAction="#bigOrdersClick" text="Самые большие заказы в году" />
                         <MenuItem mnemonicParsing="false" onAction="#financialReportClick" text="Статистика прибыли" />
@@ -31,7 +31,7 @@
                         <MenuItem mnemonicParsing="false" onAction="#yearVolumeByCountry" text="Годовой объем топлива в стране" />
                     </items>
                   </Menu>
-                <Menu mnemonicParsing="false" text="Справка">
+                <Menu mnemonicParsing="false" text="Справка" visible="false">
                   <items>
                     <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" onAction="#aboutMenuItemClick" text="О Программе" />
                   </items>

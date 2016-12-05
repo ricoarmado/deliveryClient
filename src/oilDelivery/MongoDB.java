@@ -31,7 +31,9 @@ public class MongoDB {
     public void connect(){
         try {
             mongoClient = new MongoClient();
+            
             db = mongoClient.getDB("oil");
+            
             App.out("Подключение к  MongoDB localhost:27017 [Успешно]");
         }catch (Exception e){
             App.out("Подключение к  MongoDB localhost:27017 [Ошибка]");
